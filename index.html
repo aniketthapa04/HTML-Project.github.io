@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniket's Fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+    /* CSS Reset */
+    body {
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        margin: 15px;
+        padding: 0px;
+        background: url(Workout-Image.jpg);
+        background-size: 1536px;
+        background-repeat: no-repeat;
+    }
+
+    .left {
+        position: absolute;
+        left: 12px;
+        display: inline-block;
+    }
+
+    .left img {
+        width: 80px;
+
+    }
+
+    .left div {
+        text-align: center;
+        font-size: 12px;
+        line-height: 5px;
+    }
+
+    .mid {
+        border: 2px solid skyblue;
+        border-radius: 30px;
+        display: block;
+        width: 42%;
+        margin: 6px auto;
+    }
+
+    .right {
+        position: absolute;
+        right: 30px;
+        top: 20px;
+        display: inline-block;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 20px 15px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: brown;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 3px 10px;
+        border: 2px solid skyblue;
+        border-radius: 8px;
+        font-size: 12px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: skyblue;
+    }
+
+    .container {
+        border: 3px solid white;
+        ;
+        margin: 105px 80px;
+        padding: 40px;
+        width: 33%;
+        border-radius: 20px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 270px;
+        padding: 2px;
+        border: 2px solid black;
+        margin: 4px auto;
+        font-size: 15px;
+        border-radius: 7px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .container button {
+        display: block;
+        width: 56%;
+        margin: 15px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+
+        <div class="left">
+            <a href="index.html">
+                <img src="Gym-Logo.jpg" alt=""></a>
+            <div><b>Aniket Fitness</b></div>
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Fitness Centre</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us</button><button class="btn">Email Us</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Join the Best Gym of Jammu</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="number" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="email" name="" placeholder="Enter your Email I'd">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Address">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
