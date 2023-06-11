@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quote Website</title>
+    <link rel="stylesheet" href="styles_quotes.css" />
+  </head>
+  <body>
+    <div class="quote-container">
+      <div class="quote-text">
+        "The only way to do great work is to love what you do."
+      </div>
+      <div class="quote-author">- Steve Jobs</div>
+    </div>
+
+    <div class="quote-container">
+      <div class="quote-text">
+        "Be the change you want to see in the world."
+      </div>
+      <div class="quote-author">- Mahatma Gandhi</div>
+    </div>
+
+    <!-- Existing quotes here -->
+
+    <div class="quote-container">
+      <div class="quote-text">
+        "If you want to live a happy life, tie it to a goal. Not to people or
+        things."
+      </div>
+      <div class="quote-author">- Albert Einstein</div>
+    </div>
+
+    <!-- Form to add new quotes -->
+    <div class="quote-container">
+      <form action="add_quote.php" method="post">
+        <label for="quote" required style="color: white">Quote:</label><br />
+        <textarea
+          id="quote"
+          name="quote"
+          required
+          style="
+            width: 500px;
+            height: 73px;
+            font-family: Segoe UI;
+            font-weight: bold;
+            font-size: 20px;
+          "
+        ></textarea
+        ><br />
+        <label for="author" required style="color: white">Author:</label><br />
+        <input
+          type="text"
+          id="author"
+          name="author"
+          required
+          style="
+            text-align: center;
+            display: block;
+            width: 270px;
+            padding: 2px;
+            border: 2px solid black;
+            margin: 6px auto;
+            font-size: 20px;
+            border-radius: 2px;
+            font-weight: bold;
+            font-family: 'Open Sans', sans-serif;
+          "
+        /><br />
+        <button type="submit">Add Quote</button>
+      </form>
+    </div>
+
+    <div class="quote-container">
+      <div class="quote-text">
+        "The greatest glory in living lies not in never falling, but in rising
+        every time we fall."
+      </div>
+      <div class="quote-author">- - Nelson Mandela</div>
+    </div>
+  
+    <div class="quote-container">
+      <div class="quote-text">"What are you doing"</div>
+      <div class="quote-author">- -Aniket</div>
+    </div>
+    <div class="quote-container">
+      <div class="quote-text">"The greatest glory in living lies not in never falling, but in rising every time we fall."
+</div>
+      <div class="quote-author">- Aniket Thapa</div>
+    </div>
+    <div class="quote-container">
+      <div class="quote-text">hjvb</div>
+      <div class="quote-author">- Albert </div>
+    </div></body>
+</html>
